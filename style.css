@@ -119,12 +119,14 @@ footer{
     color: white;
     margin: -15px;
     padding: 20px;
+    position: static;
 }
 .email{
     text-align: left;
     max-width: 1193px;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 .email h1{
